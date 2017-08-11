@@ -13,13 +13,18 @@ $(document).ready(function() {
     $(".name").text(nameInput);
 
     var one = $("input:radio[name=optradio1]:checked").val();
-    var two = $("input:radio[name=optradio1]:checked").val()
+    var two = $("input:radio[name=optradio2]:checked").val();
+    var three = $("input:radio[name=optradio3]:checked").val();
+    var four = $("input:radio[name=optradio3]:checked").val();
+    var five = $("input:radio[name=optradio1]:checked").val();
 
     if(nameInput.match(/^\d+$/)) {
       alert("Please enter only letters");
+      return;
 
-   }  if (one==undefined) {
+   }  if (one==undefined || two==undefined || three==undefined || four==undefined || five==undefined) {
       alert("Please select a response for each question");
+
     } if (one == 'ruby') {
       ruby += 1;
     } else if (one == 'php') {
@@ -45,10 +50,32 @@ $(document).ready(function() {
       $("#formThree").show(800);
       $("h2").hide();
       event.preventDefault();
-
-
-
+      $("#formThree").submit(function(event) {
+        $("#formOne").hide(800);
+        $("#formTwo").hide(800);
+        $("#formThree").hide(800);
+        $("#formFour").show(800);
+        $("h2").hide();
+        event.preventDefault();
+        $("#formFour").submit(function(event) {
+          $("#formOne").hide(800);
+          $("#formTwo").hide(800);
+          $("#formThree").hide(800);
+          $("#formFour").hide(800);
+          $("#formFive").show(800);
+          $("h2").hide();
+          event.preventDefault();
+          $("#formFive").submit(function(event) {
+            $("#formOne").hide(800);
+            $("#formTwo").hide(800);
+            $("#formThree").hide(800);
+            $("#formFour").hide(800);
+            $("#formFive").hide(800);
+            $("h2").hide();
+            event.preventDefault();
+          });
+        });
+      });
     });
-
   });
 });

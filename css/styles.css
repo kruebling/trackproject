@@ -2,6 +2,9 @@ h1 {
   padding-left: 35px;
 }
 
+p {
+  max-width: 500px;
+}
 .jumbotron {
   background-color: #c4fff6!important;
 }

@@ -2,9 +2,30 @@ h1 {
   padding-left: 35px;
 }
 
-p {
+.container p {
   max-width: 500px;
 }
 .jumbotron {
   background-color: #c4fff6!important;
+}
+
+html {
+    position: relative;
+    min-height: 100%;
+}
+
+footer {
+    background-color: #c4fff6;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    height: 35px;
+    width: 100%;
+    overflow:hidden;
+}
+
+footer p {
+  text-align: center;
+  font-weight: lighter;
+  padding: 5px;
 }

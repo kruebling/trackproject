@@ -11,7 +11,10 @@ $(document).ready(function() {
 
     var one = $("input:radio[name=optradio1]:checked").val();
 
-    if (one==undefined) {
+    if(nameInput.match(/^\d+$/)) {
+      alert("Please enter only letters");
+
+   }  if (one==undefined) {
       alert("Please select a response for each question");
     } if (one == 'ruby') {
       ruby += 1;

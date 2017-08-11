@@ -3,7 +3,6 @@ h1 {
 }
 
 h2 {
-  text-decoration: underline;
   font-weight: lighter;
 }
 
@@ -39,4 +38,12 @@ footer p {
   text-align: center;
   font-weight: lighter;
   padding: 5px;
+}
+
+#formOne {
+  max-width: 400px;
+}
+
+#formTwo {
+  display: none;
 }

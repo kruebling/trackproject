@@ -6,8 +6,11 @@ var csharp = 0;
 
 $(document).ready(function() {
   $("#formOne").submit(function(event) {
+
     var nameInput = $("input#name").val();
     event.preventDefault();
+
+    $(".name").text(nameInput);
 
     var one = $("input:radio[name=optradio1]:checked").val();
 
@@ -27,8 +30,13 @@ $(document).ready(function() {
     } else if (one == 'csharp') {
       csharp += 1;
     }
+  });
+});
 
-    $(".name").text(nameInput);
-
+$(document).ready(function() {
+  $("#formOne").submit(function(event) {
+    $("#formOne").hide(800);
+    $("#formTwo").show(800);
+    $("h2").hide();
   });
 });

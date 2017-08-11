@@ -13,6 +13,7 @@ $(document).ready(function() {
     $(".name").text(nameInput);
 
     var one = $("input:radio[name=optradio1]:checked").val();
+    var two = $("input:radio[name=optradio1]:checked").val()
 
     if(nameInput.match(/^\d+$/)) {
       alert("Please enter only letters");
@@ -38,5 +39,16 @@ $(document).ready(function() {
     $("#formOne").hide(800);
     $("#formTwo").show(800);
     $("h2").hide();
+    event.preventDefault();
+    $("#formTwo").submit(function(event) {
+      $("#formTwo").hide(800);
+      $("#formThree").show(800);
+      $("h2").hide();
+      event.preventDefault();
+
+
+
+    });
+
   });
 });

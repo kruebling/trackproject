@@ -2,26 +2,37 @@ h1 {
   padding-left: 35px;
 }
 
+h2 {
+  text-decoration: underline;
+  font-weight: lighter;
+}
+
 .container p {
   max-width: 500px;
 }
+
 .jumbotron {
   background-color: #c4fff6!important;
+  max-height: 250px;
+}
+
+body {
+  background-color: #f9f9f9
 }
 
 html {
-    position: relative;
-    min-height: 100%;
+  position: relative;
+  min-height: 100%;
 }
 
 footer {
-    background-color: #c4fff6;
-    position: absolute;
-    left: 0;
-    bottom: 0;
-    height: 35px;
-    width: 100%;
-    overflow:hidden;
+  background-color: #c4fff6;
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  height: 35px;
+  width: 100%;
+  overflow: hidden;
 }
 
 footer p {

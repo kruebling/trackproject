@@ -1,15 +1,48 @@
 <!DOCTYPE html>
 <html>
-  <head>
-    <meta charset="utf-8">
-    <link href="css/bootstrap.css" type="text/css" rel="stylesheet">
-    <link href="css/styles.css" type="text/css" rel="stylesheet">
-    <script type="text/javascript" src="js/jquery-3.2.1.js"></script>
-    <script type="text/javascript" src="js/scripts.js"></script>
-    <title>Epicodus Track</title>
-  </head>
 
-  <body>
-    <div class="jumbotron">
-      <h1><img src="img/logo.png" alt="logo"></h1>
-    </div>
+<head>
+  <meta charset="utf-8">
+  <link href="css/bootstrap.css" type="text/css" rel="stylesheet">
+  <link href="css/styles.css" type="text/css" rel="stylesheet">
+  <script type="text/javascript" src="js/jquery-3.2.1.js"></script>
+  <script type="text/javascript" src="js/scripts.js"></script>
+  <link rel="shortcut icon" href="img/epicodusico.ico" />
+  <title>Epicodus Track</title>
+</head>
+
+<body>
+  <div class="jumbotron">
+    <h1><img src="img/logo.png" alt="logo"></h1>
+  </div>
+
+  <!-- Info Survey -->
+  <div class="container">
+    <h2> Before we begin, tell us a little about yourself...</h2><br>
+
+    <form id="formOne">
+      <div class="form-group">
+        <label for="name">Name, First and Last</label>
+        <input id="name" class="form-control">
+      </div><br />
+      <div class="form-group">
+        <label for="classInterest"> What track are you <strong>most</strong> interested in?</label>
+        <input id="classInterest" class="form-control" type="text"><br />
+      </div>
+      <div class="form-group">
+        <label for="endTime">How much preliminary coding experience do you have?</label>
+        <input id="endTime" class="form-control" type="text">
+      </div><br />
+      <button type="submit" class="btn btn-info">Begin Survey!</button>
+    </form>
+  </div>
+
+    <!-- End Info Survey -->
+
+    <!-- Footer -->
+    <footer>
+      <p>Help us improve our website, <a href="mailto:ktrhx4@mail.missouri.edu Feedback">Send us an email!</a> | (555)555-5555 | 3270 n. Vancouver Ave Portland, OR</p>
+    </footer>
+
+</body>
+</html>

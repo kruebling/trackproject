@@ -23,17 +23,27 @@
     <form id="formOne">
       <div class="form-group">
         <label for="name">Name, First and Last</label>
-        <input id="name" class="form-control">
+        <input id="name" class="form-control" input type="text">
       </div><br />
-      <div class="form-group">
-        <label for="classInterest"> What track are you <strong>most</strong> interested in?</label>
-        <input id="classInterest" class="form-control" type="text"><br />
-      </div>
-      <div class="form-group">
-        <label for="endTime">How much preliminary coding experience do you have?</label>
-        <input id="endTime" class="form-control" type="text">
-      </div><br />
-      <button type="submit" class="btn btn-info">Begin Survey!</button>
+
+      <div class="radio">
+        <p>Which class are you <strong>most</strong> interested in?</p>
+          <label><input type="radio" name="optradio1" value="ruby">Ruby/Rails</label>
+        </div>
+        <div class="radio">
+          <label><input type="radio" name="optradio1" value="php">PHP/Drupal</label>
+        </div>
+        <div class="radio disabled">
+          <label><input type="radio" name="optradio1" value="java">Java/Android</label>
+        </div>
+        <div class="radio">
+          <label><input type="radio" name="optradio1" value="css">CSS/Design</label>
+        </div>
+        <div class="radio">
+          <label><input type="radio" name="optradio1" value="c#">C#/.NET</label>
+        </div><br />
+
+      <button type="submit" class="btn btn-info">Next!</button>
     </form>
   </div>
 

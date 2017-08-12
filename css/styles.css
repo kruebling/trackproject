@@ -4,6 +4,7 @@ h1 {
 
 h2 {
   font-weight: lighter;
+  max-width: 100%;
 }
 
 .container p {
@@ -43,6 +44,7 @@ footer p {
   font-weight: lighter;
   padding: 5px;
 }
+
 
 #formOne {
   max-width: 400px;

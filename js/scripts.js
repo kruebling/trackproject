@@ -13,10 +13,12 @@ $(document).ready(function() {
 
     if (nameInput.match(/^\d+$/)) {
       alert("Please enter only letters");
+      event.preventDefault();
       return;
     }
     if (one == undefined) {
       alert("Please select a response for each question");
+      event.preventDefault();
       return;
     }
     if (one == 'ruby') {
@@ -44,6 +46,7 @@ $(document).ready(function() {
 
     if (two == undefined) {
       alert("Please select a response for each question");
+      event.preventDefault();
       return;
     }
     if (two == 'ruby') {
@@ -72,6 +75,7 @@ $(document).ready(function() {
 
     if (three == undefined) {
       alert("Please select a response for each question");
+      event.preventDefault();
       return;
     }
     if (three == 'ruby') {
@@ -101,6 +105,7 @@ $(document).ready(function() {
 
     if (four == undefined) {
       alert("Please select a response for each question");
+      event.preventDefault();
       return;
     }
     if (four == 'ruby') {
@@ -131,6 +136,7 @@ $(document).ready(function() {
 
     if (five == undefined) {
       alert("Please select a response for each question");
+      event.preventDefault();
       return;
     }
     if (five == 'ruby') {

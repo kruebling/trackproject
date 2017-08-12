@@ -49,6 +49,10 @@ footer p {
   display: none;
 }
 
+.results {
+  display: none;
+}
+
 #formOne {
   max-width: 400px;
 }

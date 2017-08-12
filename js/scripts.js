@@ -5,6 +5,12 @@ var css = 0;
 var csharp = 0;
 
 $(document).ready(function() {
+  $('.close').click(function() {
+  $('.alert').hide(100);
+ });
+});
+
+$(document).ready(function() {
   $("#formOne").submit(function(event) {
     var nameInput = $("input#name").val();
     $(".name").text(nameInput);
@@ -41,18 +47,12 @@ $(document).ready(function() {
 });
 
 $(document).ready(function() {
-  $('.close').click(function() {
-  $('.alert').hide(100);
- });
-});
-
-$(document).ready(function() {
   $("#formTwo").submit(function(event) {
 
     var two = $("input:radio[name=optradio2]:checked").val();
 
     if (two == undefined) {
-      alert("Please select a response for each question");
+      $("#alert3").show(100);
       event.preventDefault();
       return;
     }
@@ -81,7 +81,7 @@ $(document).ready(function() {
     var three = $("input:radio[name=optradio3]:checked").val();
 
     if (three == undefined) {
-      alert("Please select a response for each question");
+      $("#alert4").show(100);
       event.preventDefault();
       return;
     }
@@ -111,7 +111,7 @@ $(document).ready(function() {
     var four = $("input:radio[name=optradio4]:checked").val();
 
     if (four == undefined) {
-      alert("Please select a response for each question");
+      $("#alert5").show(100);
       event.preventDefault();
       return;
     }
@@ -142,7 +142,7 @@ $(document).ready(function() {
     var five = $("input:radio[name=optradio5]:checked").val();
 
     if (five == undefined) {
-      alert("Please select a response for each question");
+      $("#alert6").show(100);
       event.preventDefault();
       return;
     }

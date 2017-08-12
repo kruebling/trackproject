@@ -11,14 +11,15 @@ $(document).ready(function() {
 
     var one = $("input:radio[name=optradio1]:checked").val();
 
-    if(nameInput.match(/^\d+$/)) {
+    if (nameInput.match(/^\d+$/)) {
       alert("Please enter only letters");
       return;
     }
-    if (one==undefined) {
-    alert("Please select a response for each question");
-    return;
-    } if (one == 'ruby') {
+    if (one == undefined) {
+      alert("Please select a response for each question");
+      return;
+    }
+    if (one == 'ruby') {
       ruby += 1;
     } else if (one == 'php') {
       php += 1;
@@ -41,10 +42,11 @@ $(document).ready(function() {
 
     var two = $("input:radio[name=optradio2]:checked").val();
 
-    if (two==undefined) {
-    alert("Please select a response for each question");
-    return;
-  } if (two == 'ruby') {
+    if (two == undefined) {
+      alert("Please select a response for each question");
+      return;
+    }
+    if (two == 'ruby') {
       ruby += 1;
     } else if (two == 'php') {
       php += 1;
@@ -68,10 +70,11 @@ $(document).ready(function() {
 
     var three = $("input:radio[name=optradio3]:checked").val();
 
-    if (three==undefined) {
-    alert("Please select a response for each question");
-    return;
-  } if (three == 'ruby') {
+    if (three == undefined) {
+      alert("Please select a response for each question");
+      return;
+    }
+    if (three == 'ruby') {
       ruby += 1;
     } else if (three == 'php') {
       php += 1;
@@ -96,10 +99,11 @@ $(document).ready(function() {
 
     var four = $("input:radio[name=optradio4]:checked").val();
 
-    if (four==undefined) {
-    alert("Please select a response for each question");
-    return;
-  } if (four == 'ruby') {
+    if (four == undefined) {
+      alert("Please select a response for each question");
+      return;
+    }
+    if (four == 'ruby') {
       ruby += 1;
     } else if (four == 'php') {
       php += 1;
@@ -125,10 +129,11 @@ $(document).ready(function() {
 
     var five = $("input:radio[name=optradio5]:checked").val();
 
-    if (five==undefined) {
-    alert("Please select a response for each question");
-    return;
-  } if (five == 'ruby') {
+    if (five == undefined) {
+      alert("Please select a response for each question");
+      return;
+    }
+    if (five == 'ruby') {
       ruby += 1;
     } else if (five == 'php') {
       php += 1;

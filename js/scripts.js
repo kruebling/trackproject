@@ -163,14 +163,7 @@ $(document).ready(function() {
     $("#formFour").hide(800);
     $("#formFive").hide(800);
     $("h2").hide();
-    $(".display").show(800);
+    $(".results").show(800);
     event.preventDefault();
-
-    var ruby = $(".ruby");
-    var php = $(".ruby");
-    var java = $(".ruby");
-    var css = $(".ruby");
-    var csharp = $(".ruby");
-
   });
 });

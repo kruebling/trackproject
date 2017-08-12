@@ -19,6 +19,10 @@ body {
   background-color: #f9f9f9
 }
 
+a {
+  padding-left: 15px;
+}
+
 html {
   position: relative;
   min-height: 100%;

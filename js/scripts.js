@@ -12,12 +12,12 @@ $(document).ready(function() {
     var one = $("input:radio[name=optradio1]:checked").val();
 
     if (nameInput.match(/^\d+$/)) {
-      alert("Please enter only letters");
+      $("#alert1").show(100);
       event.preventDefault();
       return;
     }
     if (one == undefined) {
-      alert("Please select a response for each question");
+      $("#alert2").show(100);
       event.preventDefault();
       return;
     }
@@ -39,6 +39,13 @@ $(document).ready(function() {
     event.preventDefault();
   });
 });
+
+$(document).ready(function() {
+  $('.close').click(function() {
+  $('.alert').hide(100);
+ });
+});
+
 $(document).ready(function() {
   $("#formTwo").submit(function(event) {
 

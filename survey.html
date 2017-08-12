@@ -16,6 +16,7 @@
     <h1><img src="img/logo.png" alt="logo"></h1>
   </div>
 
+
   <div class="container">
     <h2> Before we begin, tell us a little about yourself...</h2>
     <div class="row">
@@ -27,6 +28,12 @@
           <div class="form-group">
             <label for="name"></label>
             <input id="name" class="form-control" input type="text" placeholder="First and Last Name">
+          </div>
+          <div class="alert alert-danger" role="alert" id="alert1">
+            <button type="button" class="close" data-dismiss="alert" aria-label="Close">
+              <span aria-hidden="true">&times;</span>
+            </button>
+            <strong>Oh snap!</strong> Please enter only letters!
           </div>
 
           <p>Which class are you <strong>most</strong> interested in?</p>
@@ -45,7 +52,14 @@
           </div>
           <div class="radio">
             <label><input type="radio" name="optradio1" value="csharp">C#/.NET</label>
-          </div><br />
+          </div>
+          <div class="alert alert-danger" role="alert" id="alert2">
+            <button type="button" class="close" data-dismiss="alert" aria-label="Close">
+              <span aria-hidden="true">&times;</span>
+            </button>
+            <strong>Oh snap!</strong> Please select a response!
+          </div>
+          <br />
 
           <button type="submit" class="btn btn-info">Next!</button>
 

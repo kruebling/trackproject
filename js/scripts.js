@@ -171,5 +171,20 @@ $(document).ready(function() {
     $("h2").hide();
     $(".results").show(800);
     event.preventDefault();
+
+    if (ruby > php && ruby > java && ruby > css && ruby > csharp) {
+      $("#alertRuby").show(800);
+    } else if (php > ruby && php > java && php > css && php > csharp) {
+      $("#alertPhp").show(800);
+    } else if (java > php && java > ruby && java > css && java > csharp) {
+      $("#alertJava").show(800);
+    } else if (css > php && css > java && css > ruby && css > csharp) {
+      $("#alertCss").show(800);
+    } else if (csharp > php && csharp > java && csharp > css && csharp >  ruby) {
+      $("#alertCsharp").show(800);
+    } else {
+       $("#alertTie").show(800);
+      event.preventDefault();
+    }
   });
 });

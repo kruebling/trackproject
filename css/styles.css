@@ -17,7 +17,10 @@ h2 {
 }
 
 body {
-  background-color: #f9f9f9
+  background-color: #f9f9f9;
+  min-height: 400px;
+  margin-bottom: 100px;
+  clear: both;
 }
 
 a {
@@ -29,20 +32,18 @@ html {
   min-height: 100%;
 }
 
-footer {
-  background-color: #c4fff6;
-  position: absolute;
-  left: 0;
-  bottom: 0;
-  height: 35px;
-  width: 100%;
-  overflow: hidden;
+.footer {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    line-height: 20px;
+    background-color: #c4fff6;
 }
 
-footer p {
+.footer p {
   text-align: center;
   font-weight: lighter;
-  padding: 5px;
+  background-color: #c4fff6;
 }
 
 .alert {

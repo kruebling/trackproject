@@ -6,7 +6,7 @@
 
 ## Description
 
-_This webpage includes a survey to gather user input on their interests and match them to a coding language._
+_This webpage includes a survey to gather user input on their interests and match them to a coding language. https://kruebling.github.io/trackproject/_
 
 ## Setup/Installation Requirements
 
@@ -28,4 +28,4 @@ _HTML, CSS Bootstrap, JQuery, Javascript_
 
 ### License
 
-Copyright (c) 2017 **_Keegan Ruebling_**
+Copyright (c) 2017 **_Keegan Rueblinggit ad_**

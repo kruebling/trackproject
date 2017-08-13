@@ -17,7 +17,7 @@ $(document).ready(function() {
 
     var one = $("input:radio[name=optradio1]:checked").val();
 
-    if (nameInput.match(/^\d+$/)) {
+    if (nameInput.match(/\d+$/)) {
       $("#alert1").show(100);
       event.preventDefault();
       return;
@@ -38,6 +38,8 @@ $(document).ready(function() {
     } else if (one == 'csharp') {
       csharp += 1;
     }
+
+    $("#oneresult").text(ruby);
 
     $("#formOne").hide(800);
     $("#formTwo").show(800);

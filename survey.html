@@ -24,77 +24,78 @@
 
         <!-- Form One -->
         <form id="formOne">
-
-          <div class="form-group">
-            <label for="name"></label>
-            <input id="name" class="form-control" input type="text" placeholder="First and Last Name">
-          </div>
-          <div class="alert alert-danger" role="alert" id="alert1">
-            <button type="button" class="close" data-dismiss="alert" aria-label="Close">
+          <div class="well">
+            <div class="form-group">
+              <label for="name"></label>
+              <input id="name" class="form-control" input type="text" placeholder="First and Last Name">
+            </div>
+            <div class="alert alert-danger" role="alert" id="alert1">
+              <button type="button" class="close" data-dismiss="alert" aria-label="Close">
               <span aria-hidden="true">&times;</span>
             </button>
-            <strong>Oh snap!</strong> Please enter only letters!
-          </div>
+              <strong>Oh snap!</strong> Please enter only letters!
+            </div>
 
-          <p>Which class are you <strong>most</strong> interested in?</p>
+            <p>Which class are you <strong>most</strong> interested in?</p>
 
-          <div class="radio">
-            <label><input type="radio" name="optradio1" value="ruby">Ruby/Rails</label>
-          </div>
-          <div class="radio">
-            <label><input type="radio" name="optradio1" value="php">PHP/Drupal</label>
-          </div>
-          <div class="radio disabled">
-            <label><input type="radio" name="optradio1" value="java">Java/Android</label>
-          </div>
-          <div class="radio">
-            <label><input type="radio" name="optradio1" value="css">CSS/Design</label>
-          </div>
-          <div class="radio">
-            <label><input type="radio" name="optradio1" value="csharp">C#/.NET</label>
-          </div>
-          <div class="alert alert-danger" role="alert" id="alert2">
-            <button type="button" class="close" data-dismiss="alert" aria-label="Close">
+            <div class="radio">
+              <label><input type="radio" name="optradio1" value="ruby">Ruby/Rails</label>
+            </div>
+            <div class="radio">
+              <label><input type="radio" name="optradio1" value="php">PHP/Drupal</label>
+            </div>
+            <div class="radio disabled">
+              <label><input type="radio" name="optradio1" value="java">Java/Android</label>
+            </div>
+            <div class="radio">
+              <label><input type="radio" name="optradio1" value="css">CSS/Design</label>
+            </div>
+            <div class="radio">
+              <label><input type="radio" name="optradio1" value="csharp">C#/.NET</label>
+            </div>
+            <div class="alert alert-danger" role="alert" id="alert2">
+              <button type="button" class="close" data-dismiss="alert" aria-label="Close">
               <span aria-hidden="true">&times;</span>
             </button>
-            <strong>Oh snap!</strong> Please select a response!
+              <strong>Oh snap!</strong> Please select a response!
+            </div>
+            <br />
+
+            <button type="submit" class="btn btn-info">Next!</button>
           </div>
-          <br />
-
-          <button type="submit" class="btn btn-info">Next!</button>
-
         </form>
         <!-- End Form One -->
 
         <!-- Form Two -->
         <form id="formTwo">
-          <h3>Which of the following appeals <strong>most</strong> to you?</h3>
+          <div class="well">
+            <h3>Which of the following appeals <strong>most</strong> to you?</h3>
+            <div class="radio">
+              <label><input type="radio" name="optradio2" value="ruby">Back-end development</label>
+            </div>
+            <div class="radio">
+              <label><input type="radio" name="optradio2" value="php">Server-side scripting</label>
+            </div>
+            <div class="radio">
+              <label><input type="radio" name="optradio2" value="java">Apps and gaming</label>
+            </div>
+            <div class="radio">
+              <label><input type="radio" name="optradio2" value="css">front-end development</label>
+            </div>
+            <div class="radio">
+              <label><input type="radio" name="optradio2" value="csharp">Microsoft Development</label>
+            </div>
+            <div class="alert alert-danger" role="alert" id="alert3">
+              <button type="button" class="close" data-dismiss="alert" aria-label="Close">
+                <span aria-hidden="true">&times;</span>
+              </button>
+              <strong>Oh snap!</strong> Please select a response!
+            </div>
+            <br />
 
-          <div class="radio">
-            <label><input type="radio" name="optradio2" value="ruby">Back-end development</label>
+            <a class="btn btn-warning" href="javascript:window.location.reload();" role="button">Restart!</a>
+            <button type="submit" class="btn btn-info">Next!</button>
           </div>
-          <div class="radio">
-            <label><input type="radio" name="optradio2" value="php">Server-side scripting</label>
-          </div>
-          <div class="radio">
-            <label><input type="radio" name="optradio2" value="java">Apps and gaming</label>
-          </div>
-          <div class="radio">
-            <label><input type="radio" name="optradio2" value="css">front-end development</label>
-          </div>
-          <div class="radio">
-            <label><input type="radio" name="optradio2" value="csharp">Microsoft Development</label>
-          </div>
-          <div class="alert alert-danger" role="alert" id="alert3">
-            <button type="button" class="close" data-dismiss="alert" aria-label="Close">
-              <span aria-hidden="true">&times;</span>
-            </button>
-            <strong>Oh snap!</strong> Please select a response!
-          </div>
-          <br />
-
-          <a class="btn btn-warning" href="javascript:window.location.reload();" role="button">Restart!</a>
-          <button type="submit" class="btn btn-info">Next!</button>
         </form>
         <!-- End of Form Two -->
 
@@ -215,7 +216,7 @@
             </tbody>
           </table>
         </div>
-      <!-- End Table -->
+        <!-- End Table -->
       </div>
     </div>
   </div>
@@ -226,4 +227,5 @@
   </footer>
 
 </body>
+
 </html>

@@ -38,9 +38,6 @@ $(document).ready(function() {
     } else if (one == 'csharp') {
       csharp += 1;
     }
-
-    $("#oneresult").text(ruby);
-
     $("#formOne").hide(800);
     $("#formTwo").show(800);
     $("h2").hide();
@@ -159,6 +156,13 @@ $(document).ready(function() {
     } else if (five == 'csharp') {
       csharp += 1;
     }
+
+    $("#oneResult").text(ruby);
+    $("#twoResult").text(php);
+    $("#threeResult").text(java);
+    $("#fourResult").text(css);
+    $("#fiveResult").text(csharp);
+
     $("#formOne").hide(800);
     $("#formTwo").hide(800);
     $("#formThree").hide(800);

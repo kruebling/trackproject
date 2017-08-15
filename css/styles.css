@@ -44,11 +44,11 @@ html {
 }
 
 .footer {
-    position: absolute;
-    bottom: 0;
-    width: 100%;
-    line-height: 20px;
-    background-color: #c4fff6;
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  line-height: 20px;
+  background-color: #c4fff6;
 }
 
 .footer p {

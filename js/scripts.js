@@ -7,7 +7,7 @@ var csharp = 0;
 $(document).ready(function() {
   $('.close').click(function() {
   $('.alert').hide(100);
- });
+  });
 });
 
 $(document).ready(function() {
@@ -43,9 +43,8 @@ $(document).ready(function() {
     $("h2").hide();
     event.preventDefault();
   });
-});
 
-$(document).ready(function() {
+
   $("#formTwo").submit(function(event) {
 
     var two = $("input:radio[name=optradio2]:checked").val();
@@ -72,9 +71,7 @@ $(document).ready(function() {
     $("h2").hide();
     event.preventDefault();
   });
-});
 
-$(document).ready(function() {
   $("#formThree").submit(function(event) {
 
     var three = $("input:radio[name=optradio3]:checked").val();
@@ -102,9 +99,7 @@ $(document).ready(function() {
     $("h2").hide();
     event.preventDefault();
   });
-});
 
-$(document).ready(function() {
   $("#formFour").submit(function(event) {
 
     var four = $("input:radio[name=optradio4]:checked").val();
@@ -133,9 +128,7 @@ $(document).ready(function() {
     $("h2").hide();
     event.preventDefault();
   });
-});
 
-$(document).ready(function() {
   $("#formFive").submit(function(event) {
 
     var five = $("input:radio[name=optradio5]:checked").val();
@@ -180,10 +173,10 @@ $(document).ready(function() {
       $("#alertJava").show(800);
     } else if (css > php && css > java && css > ruby && css > csharp) {
       $("#alertCss").show(800);
-    } else if (csharp > php && csharp > java && csharp > css && csharp >  ruby) {
+    } else if (csharp > php && csharp > java && csharp > css && csharp > ruby) {
       $("#alertCsharp").show(800);
     } else {
-       $("#alertTie").show(800);
+    $("#alertTie").show(800);
       event.preventDefault();
     }
   });

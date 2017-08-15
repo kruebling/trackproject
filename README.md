@@ -1,18 +1,18 @@
 # _My Webpage Survey for Epicodus Tracks_
 
-#### _August 13th 2017_
+## _August 13th 2017_
 
-#### By _**Keegan Ruebling**_
+## By _**Keegan Ruebling**_
 
 ## Description
 
-_This webpage includes a survey to gather user input on their interests and match them to a coding language. https://kruebling.github.io/trackproject/_
+_This webpage includes a survey to gather user input on their interests and match them to a coding language. <https://kruebling.github.io/trackproject/>_
 
 ## Setup/Installation Requirements
 
-* _Clone this repository_
-* _Run using your preferred internet browser_
-* _Or upload to a web server_
+- _Clone this repository_
+- _Run using your preferred internet browser_
+- _Or upload to a web server_
 
 ## Known Bugs
 

@@ -1,290 +1,290 @@
 <!DOCTYPE html>
 <html>
 
-<head>
-  <meta charset="utf-8">
-  <link href="css/bootstrap.css" type="text/css" rel="stylesheet">
-  <link href="css/styles.css" type="text/css" rel="stylesheet">
-  <script type="text/javascript" src="js/jquery-3.2.1.js"></script>
-  <script type="text/javascript" src="js/scripts.js"></script>
-  <link rel="shortcut icon" href="img/epicodusico.ico" />
-  <title>Epicodus Track</title>
-</head>
+  <head>
+    <meta charset="utf-8">
+    <link href="css/bootstrap.css" type="text/css" rel="stylesheet">
+    <link href="css/styles.css" type="text/css" rel="stylesheet">
+    <script type="text/javascript" src="js/jquery-3.2.1.js"></script>
+    <script type="text/javascript" src="js/scripts.js"></script>
+    <link rel="shortcut icon" href="img/epicodusico.ico" />
+    <title>Epicodus Track</title>
+  </head>
 
-<body>
-  <div class="jumbotron">
-    <h1><img src="img/logo.png" alt="logo"></h1>
-  </div>
+  <body>
+    <div class="jumbotron">
+      <h1><img src="img/logo.png" alt="logo"></h1>
+    </div>
 
 
-  <div class="container">
-    <h2> Before we begin, tell us a little about yourself...</h2>
-    <div class="row">
-      <div class="col-sm-8">
+    <div class="container">
+      <h2> Before we begin, tell us a little about yourself...</h2>
+      <div class="row">
+        <div class="col-sm-8">
 
-        <!-- Form One -->
-        <form id="formOne">
-          <div class="well">
-            <div class="form-group">
-              <label for="name"></label>
-              <input id="name" class="form-control" input type="text" placeholder="First and Last Name">
-            </div>
-            <div class="alert alert-danger" role="alert" id="alert1">
-              <button type="button" class="close" data-dismiss="alert" aria-label="Close">
-              <span aria-hidden="true">&times;</span>
-            </button>
-              <strong>Oh snap!</strong> Please enter only letters!
-            </div>
+          <!-- Form One -->
+          <form id="formOne">
+            <div class="well">
+              <div class="form-group">
+                <label for="name"></label>
+                <input id="name" class="form-control" input type="text" placeholder="First and Last Name">
+              </div>
+              <div class="alert alert-danger" role="alert" id="alert1">
+                <button type="button" class="close" data-dismiss="alert" aria-label="Close">
+                  <span aria-hidden="true">&times;</span>
+                </button>
+                <strong>Oh snap!</strong> Please enter only letters!
+              </div>
 
-            <p>Which class are you <strong>most</strong> interested in?</p>
+              <p>Which class are you <strong>most</strong> interested in?</p>
 
-            <div class="radio">
-              <label><input type="radio" name="optradio1" value="ruby">Ruby/Rails</label>
-            </div>
-            <div class="radio">
-              <label><input type="radio" name="optradio1" value="php">PHP/Drupal</label>
-            </div>
-            <div class="radio disabled">
-              <label><input type="radio" name="optradio1" value="java">Java/Android</label>
-            </div>
-            <div class="radio">
-              <label><input type="radio" name="optradio1" value="css">CSS/Design</label>
-            </div>
-            <div class="radio">
-              <label><input type="radio" name="optradio1" value="csharp">C#/.NET</label>
-            </div>
-            <div class="alert alert-danger" role="alert" id="alert2">
-              <button type="button" class="close" data-dismiss="alert" aria-label="Close">
-              <span aria-hidden="true">&times;</span>
-            </button>
-              <strong>Oh snap!</strong> Please select a response!
-            </div>
-            <br />
-
-            <button type="submit" class="btn btn-info">Next!</button>
-          </div>
-        </form>
-        <!-- End Form One -->
-
-        <!-- Form Two -->
-        <form id="formTwo">
-          <div class="well">
-            <h3>Which of the following appeals <strong>most</strong> to you?</h3>
-            <div class="radio">
-              <label><input type="radio" name="optradio2" value="ruby">Back-end development</label>
-            </div>
-            <div class="radio">
-              <label><input type="radio" name="optradio2" value="php">Server-side scripting</label>
-            </div>
-            <div class="radio">
-              <label><input type="radio" name="optradio2" value="java">Apps and gaming</label>
-            </div>
-            <div class="radio">
-              <label><input type="radio" name="optradio2" value="css">front-end development</label>
-            </div>
-            <div class="radio">
-              <label><input type="radio" name="optradio2" value="csharp">Microsoft Development</label>
-            </div>
-            <div class="alert alert-danger" role="alert" id="alert3">
-              <button type="button" class="close" data-dismiss="alert" aria-label="Close">
+              <div class="radio">
+                <label><input type="radio" name="optradio1" value="ruby">Ruby/Rails</label>
+              </div>
+              <div class="radio">
+                <label><input type="radio" name="optradio1" value="php">PHP/Drupal</label>
+              </div>
+              <div class="radio disabled">
+                <label><input type="radio" name="optradio1" value="java">Java/Android</label>
+              </div>
+              <div class="radio">
+                <label><input type="radio" name="optradio1" value="css">CSS/Design</label>
+              </div>
+              <div class="radio">
+                <label><input type="radio" name="optradio1" value="csharp">C#/.NET</label>
+              </div>
+              <div class="alert alert-danger" role="alert" id="alert2">
+                <button type="button" class="close" data-dismiss="alert" aria-label="Close">
                 <span aria-hidden="true">&times;</span>
               </button>
-              <strong>Oh snap!</strong> Please select a response!
-            </div>
-            <br />
+                <strong>Oh snap!</strong> Please select a response!
+              </div>
+              <br>
 
-            <a class="btn btn-warning" href="javascript:window.location.reload();" role="button">Restart!</a>
-            <button type="submit" class="btn btn-info">Next!</button>
+              <button type="submit" class="btn btn-info">Next!</button>
+            </div>
+          </form>
+          <!-- End Form One -->
+
+          <!-- Form Two -->
+          <form id="formTwo">
+            <div class="well">
+              <h3>Which of the following appeals <strong>most</strong> to you?</h3>
+              <div class="radio">
+                <label><input type="radio" name="optradio2" value="ruby">Back-end development</label>
+              </div>
+              <div class="radio">
+                <label><input type="radio" name="optradio2" value="php">Server-side scripting</label>
+              </div>
+              <div class="radio">
+                <label><input type="radio" name="optradio2" value="java">Apps and gaming</label>
+              </div>
+              <div class="radio">
+                <label><input type="radio" name="optradio2" value="css">front-end development</label>
+              </div>
+              <div class="radio">
+                <label><input type="radio" name="optradio2" value="csharp">Microsoft Development</label>
+              </div>
+              <div class="alert alert-danger" role="alert" id="alert3">
+                <button type="button" class="close" data-dismiss="alert" aria-label="Close">
+                  <span aria-hidden="true">&times;</span>
+                </button>
+                <strong>Oh snap!</strong> Please select a response!
+              </div>
+              <br>
+
+              <a class="btn btn-warning" href="javascript:window.location.reload();" role="button">Restart!</a>
+              <button type="submit" class="btn btn-info">Next!</button>
+            </div>
+          </form>
+          <!-- End of Form Two -->
+
+          <!-- Form Three -->
+          <form id="formThree">
+            <div class="well">
+              <h3>Which of the following Lord of the Rings Characters do you relate to the <strong>most?</strong></h3>
+
+              <div class="radio">
+                <label><input type="radio" name="optradio3" value="ruby">Faramir (human)</label>
+              </div>
+              <div class="radio">
+                <label><input type="radio" name="optradio3" value="php">Azog (orc)</label>
+              </div>
+              <div class="radio">
+                <label><input type="radio" name="optradio3" value="java">Gandalf (wizard)</label>
+              </div>
+              <div class="radio">
+                <label><input type="radio" name="optradio3" value="css">Treebeard (ent)</label>
+              </div>
+              <div class="radio">
+                <label><input type="radio" name="optradio3" value="csharp">Legolas (elf)</label>
+              </div>
+              <div class="alert alert-danger" role="alert" id="alert4">
+                <button type="button" class="close" data-dismiss="alert" aria-label="Close">
+                <span aria-hidden="true">&times;</span>
+              </button>
+                <strong>Oh snap!</strong> Please select a response!
+              </div>
+              <br />
+
+              <a class="btn btn-warning" href="javascript:window.location.reload();" role="button">Restart!</a>
+              <button type="submit" class="btn btn-info">Next!</button>
+            </div>
+          </form>
+          <!-- End of Form Three -->
+
+          <!-- Form Four -->
+          <form id="formFour">
+            <div class="well">
+              <h3>Which of the following is the most <em>appealing</em>...</h3>
+
+              <div class="radio">
+                <label><input type="radio" name="optradio4" value="ruby">Productivity</label>
+              </div>
+              <div class="radio">
+                <label><input type="radio" name="optradio4" value="php">Popularity</label>
+              </div>
+              <div class="radio">
+                <label><input type="radio" name="optradio4" value="java">Money</label>
+              </div>
+              <div class="radio">
+                <label><input type="radio" name="optradio4" value="css">Art</label>
+              </div>
+              <div class="radio">
+                <label><input type="radio" name="optradio4" value="csharp">Tech</label>
+              </div>
+              <div class="alert alert-danger" role="alert" id="alert5">
+                <button type="button" class="close" data-dismiss="alert" aria-label="Close">
+                <span aria-hidden="true">&times;</span>
+              </button>
+                <strong>Oh snap!</strong> Please select a response!
+              </div>
+              <br>
+
+              <a class="btn btn-warning" href="javascript:window.location.reload();" role="button">Restart!</a>
+              <button type="submit" class="btn btn-info">Next!</button>
+            </div>
+          </form>
+          <!-- End of Form Four -->
+
+          <!-- Form Five -->
+          <form id="formFive">
+            <div class="well">
+              <h3>I want to learn to...</h3>
+
+              <div class="radio">
+                <label><input type="radio" name="optradio5" value="ruby">Do automation and scripting</label>
+              </div>
+              <div class="radio">
+                <label><input type="radio" name="optradio5" value="php">Interact with databases</label>
+              </div>
+              <div class="radio">
+                <label><input type="radio" name="optradio5" value="java">make Android Apps</label>
+              </div>
+              <div class="radio">
+                <label><input type="radio" name="optradio5" value="css">Design websites for clients</label>
+              </div>
+              <div class="radio">
+                <label><input type="radio" name="optradio5" value="csharp">Write Windows desktop applications</label>
+              </div>
+              <div class="alert alert-danger" role="alert" id="alert6">
+                <button type="button" class="close" data-dismiss="alert" aria-label="Close">
+                <span aria-hidden="true">&times;</span>
+              </button>
+                <strong>Oh snap!</strong> Please select a response!
+              </div>
+              <br>
+
+              <a class="btn btn-warning" href="javascript:window.location.reload();" role="button">Restart!</a>
+              <button type="submit" class="btn btn-info">Submit</button>
+            </div>
+          </form>
+          <!-- End of Form Five -->
+
+          <!-- Table -->
+          <div class="results">
+            <div class="well">
+              <h3>Results!</h3>
+              <p><strong><span class="name"></span></strong>, heres how you scored!</p>
+              <table class="table table-condensed">
+                <thead>
+                  <tr>
+                    <th>Coding Language</th>
+                    <th>Score</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td>Ruby</td>
+                    <td><span id="oneResult"></span></td>
+                  </tr>
+                  <tr>
+                    <td>PHP</td>
+                    <td><span id="twoResult"></span></td>
+                  </tr>
+                  <tr>
+                    <td>Java</td>
+                    <td><span id="threeResult"></span></td>
+                  </tr>
+                  <tr>
+                    <td>CSS</td>
+                    <td><span id="fourResult"></span></td>
+                  </tr>
+                  <tr>
+                    <td>C#</td>
+                    <td><span id="fiveResult"></span></td>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
           </div>
-        </form>
-        <!-- End of Form Two -->
+          <!-- End Table -->
 
-        <!-- Form Three -->
-        <form id="formThree">
-          <div class="well">
-            <h3>Which of the following Lord of the Rings Characters do you relate to the <strong>most?</strong></h3>
-
-            <div class="radio">
-              <label><input type="radio" name="optradio3" value="ruby">Faramir (human)</label>
-            </div>
-            <div class="radio">
-              <label><input type="radio" name="optradio3" value="php">Azog (orc)</label>
-            </div>
-            <div class="radio">
-              <label><input type="radio" name="optradio3" value="java">Gandalf (wizard)</label>
-            </div>
-            <div class="radio">
-              <label><input type="radio" name="optradio3" value="css">Treebeard (ent)</label>
-            </div>
-            <div class="radio">
-              <label><input type="radio" name="optradio3" value="csharp">Legolas (elf)</label>
-            </div>
-            <div class="alert alert-danger" role="alert" id="alert4">
-              <button type="button" class="close" data-dismiss="alert" aria-label="Close">
-              <span aria-hidden="true">&times;</span>
-            </button>
-              <strong>Oh snap!</strong> Please select a response!
-            </div>
-            <br />
-
-            <a class="btn btn-warning" href="javascript:window.location.reload();" role="button">Restart!</a>
-            <button type="submit" class="btn btn-info">Next!</button>
+          <div class="alert alert-success" role="alert" id="alertRuby">
+            <h4 class="alert-heading">Well done!</h4>
+            <p>Aww yeah, It seems like you have some interest in ruby!</p>
+            <p class="mb-0"><a href="http://rubyonrails.org/">Click here for more info!</a></p>
           </div>
-        </form>
-        <!-- End of Form Three -->
 
-        <!-- Form Four -->
-        <form id="formFour">
-          <div class="well">
-            <h3>Which of the following is the most <em>appealing</em>...</h3>
-
-            <div class="radio">
-              <label><input type="radio" name="optradio4" value="ruby">Productivity</label>
-            </div>
-            <div class="radio">
-              <label><input type="radio" name="optradio4" value="php">Popularity</label>
-            </div>
-            <div class="radio">
-              <label><input type="radio" name="optradio4" value="java">Money</label>
-            </div>
-            <div class="radio">
-              <label><input type="radio" name="optradio4" value="css">Art</label>
-            </div>
-            <div class="radio">
-              <label><input type="radio" name="optradio4" value="csharp">Tech</label>
-            </div>
-            <div class="alert alert-danger" role="alert" id="alert5">
-              <button type="button" class="close" data-dismiss="alert" aria-label="Close">
-              <span aria-hidden="true">&times;</span>
-            </button>
-              <strong>Oh snap!</strong> Please select a response!
-            </div>
-            </br>
-
-            <a class="btn btn-warning" href="javascript:window.location.reload();" role="button">Restart!</a>
-            <button type="submit" class="btn btn-info">Next!</button>
+          <div class="alert alert-success" role="alert" id="alertPhp">
+            <h4 class="alert-heading">Well done!</h4>
+            <p>Aww yeah, It seems like you have some interest in PHP!</p>
+            <p class="mb-0"><a href="http://php.net/">Click here for more info!</a></p>
           </div>
-        </form>
-        <!-- End of Form Four -->
 
-        <!-- Form Five -->
-        <form id="formFive">
-          <div class="well">
-            <h3>I want to learn to...</h3>
-
-            <div class="radio">
-              <label><input type="radio" name="optradio5" value="ruby">Do automation and scripting</label>
-            </div>
-            <div class="radio">
-              <label><input type="radio" name="optradio5" value="php">Interact with databases</label>
-            </div>
-            <div class="radio">
-              <label><input type="radio" name="optradio5" value="java">make Android Apps</label>
-            </div>
-            <div class="radio">
-              <label><input type="radio" name="optradio5" value="css">Design websites for clients</label>
-            </div>
-            <div class="radio">
-              <label><input type="radio" name="optradio5" value="csharp">Write Windows desktop applications</label>
-            </div>
-            <div class="alert alert-danger" role="alert" id="alert6">
-              <button type="button" class="close" data-dismiss="alert" aria-label="Close">
-              <span aria-hidden="true">&times;</span>
-            </button>
-              <strong>Oh snap!</strong> Please select a response!
-            </div>
-            <br />
-
-            <a class="btn btn-warning" href="javascript:window.location.reload();" role="button">Restart!</a>
-            <button type="submit" class="btn btn-info">Submit</button>
+          <div class="alert alert-success" role="alert" id="alertJava">
+            <h4 class="alert-heading">Well done!</h4>
+            <p>Aww yeah, It seems like you have some interest in Java!</p>
+            <p class="mb-0"><a href="https://www.codecademy.com/learn/learn-java">Click here for more info!</a></p>
           </div>
-        </form>
-        <!-- End of Form Five -->
 
-        <!-- Table -->
-        <div class="results">
-          <div class="well">
-            <h3>Results!</h3>
-            <p><strong><span class="name"></span></strong>, heres how you scored!</p>
-            <table class="table table-condensed">
-              <thead>
-                <tr>
-                  <th>Coding Language</th>
-                  <th>Score</th>
-                </tr>
-              </thead>
-              <tbody>
-                <tr>
-                  <td>Ruby</td>
-                  <td><span id="oneResult"></span></td>
-                </tr>
-                <tr>
-                  <td>PHP</td>
-                  <td><span id="twoResult"></span></td>
-                </tr>
-                <tr>
-                  <td>Java</td>
-                  <td><span id="threeResult"></span></td>
-                </tr>
-                <tr>
-                  <td>CSS</td>
-                  <td><span id="fourResult"></span></td>
-                </tr>
-                <tr>
-                  <td>C#</td>
-                  <td><span id="fiveResult"></span></td>
-                </tr>
-              </tbody>
-            </table>
+          <div class="alert alert-success" role="alert" id="alertCss">
+            <h4 class="alert-heading">Well done!</h4>
+            <p>Aww yeah, It seems like you have some interest in CSS!</p>
+            <p class="mb-0"><a href="http://html.com/css/">Click here for more info!</a></p>
           </div>
-        </div>
-        <!-- End Table -->
 
-        <div class="alert alert-success" role="alert" id="alertRuby">
-          <h4 class="alert-heading">Well done!</h4>
-          <p>Aww yeah, It seems like you have some interest in ruby!</p>
-          <p class="mb-0"><a href="http://rubyonrails.org/">Click here for more info!</a></p>
-        </div>
+          <div class="alert alert-success" role="alert" id="alertCsharp">
+            <h4 class="alert-heading">Well done!</h4>
+            <p>Aww yeah, It seems like you have some interest in C#</p>
+            <p class="mb-0"><a href="https://msdn.microsoft.com/en-us">Click here for more info!</a></p>
+          </div>
 
-        <div class="alert alert-success" role="alert" id="alertPhp">
-          <h4 class="alert-heading">Well done!</h4>
-          <p>Aww yeah, It seems like you have some interest in PHP!</p>
-          <p class="mb-0"><a href="http://php.net/">Click here for more info!</a></p>
-        </div>
+          <div class="alert alert-warning" role="alert" id="alertTie">
+            <h4 class="alert-heading">Well done!</h4>
+            <p>Uh oh! Looks like we have a tie!</p>
+            <p class="mb-0"><a href="http://carlcheo.com/compsci">Click here for more information on programming languages!</a></p>
+          </div>
 
-        <div class="alert alert-success" role="alert" id="alertJava">
-          <h4 class="alert-heading">Well done!</h4>
-          <p>Aww yeah, It seems like you have some interest in Java!</p>
-          <p class="mb-0"><a href="https://www.codecademy.com/learn/learn-java">Click here for more info!</a></p>
         </div>
-
-        <div class="alert alert-success" role="alert" id="alertCss">
-          <h4 class="alert-heading">Well done!</h4>
-          <p>Aww yeah, It seems like you have some interest in CSS!</p>
-          <p class="mb-0"><a href="http://html.com/css/">Click here for more info!</a></p>
-        </div>
-
-        <div class="alert alert-success" role="alert" id="alertCsharp">
-          <h4 class="alert-heading">Well done!</h4>
-          <p>Aww yeah, It seems like you have some interest in C#</p>
-          <p class="mb-0"><a href="https://msdn.microsoft.com/en-us">Click here for more info!</a></p>
-        </div>
-
-        <div class="alert alert-warning" role="alert" id="alertTie">
-          <h4 class="alert-heading">Well done!</h4>
-          <p>Uh oh! Looks like we have a tie!</p>
-          <p class="mb-0"><a href="http://carlcheo.com/compsci">Click here for more information on programming languages!</a></p>
-        </div>
-
       </div>
     </div>
-  </div>
 
-  <!-- Footer -->
-  <footer class="footer">
-    <p>Help us improve our website,<a href="mailto:ktrhx4@mail.missouri.edu Feedback">Send us an email!</a> | (555)555-5555 | 3270 n. Vancouver Ave Portland, OR</p>
-  </footer>
+    <!-- Footer -->
+    <footer class="footer">
+      <p>Help us improve our website,<a href="mailto:ktrhx4@mail.missouri.edu">Send us an email!</a> | (555)555-5555 | 3270 n. Vancouver Ave Portland, OR</p>
+    </footer>
 
-</body>
+  </body>
 
 </html>
